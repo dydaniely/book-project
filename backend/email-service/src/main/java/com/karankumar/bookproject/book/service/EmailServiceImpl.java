@@ -30,7 +30,7 @@ import java.util.Map;
 @Profile("prod")
 @Service
 public class EmailServiceImpl implements EmailService {
-  public static final String NOREPLY_ADDRESS = "noreply@karankumar.com";
+  public static final String NOREPLY_ADDRESS = "dydanielykarankumar.com";
   private final JavaMailSender emailSender;
   private final SpringTemplateEngine thymeleafTemplateEngine;
 
